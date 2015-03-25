@@ -1,4 +1,96 @@
+@import "reset";
+@import "colors";
+@import "type";
+@import "background";
+
+*,*:before,*:after {
+  box-sizing: border-box;
+}
+
 body {
-  background: #222;
-  color: #93DE7F;
+  /*background: $dark_grey;*/
+  color: $light_green;
+  padding: 25px;
+  background: linear-gradient(139deg, #646464, #060605);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  -o-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+h2 {
+  color: $green;
+}
+
+h3 {
+  color: $turquoise;
+}
+
+h4 {
+  color: $pink;
+}
+
+.box-container {
+  margin-top: 50px;
+}
+
+.box1 {
+  background: $pink;
+  color: $dark_grey;
+  width: 50px;
+  height: 50px;
+  float: left;
+  text-align: center;
+}
+
+.box2 {
+  background: $green;
+  color: $dark_grey;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.box3 {
+  background: $light_green;
+  color: $dark_grey;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.box4 {
+  background: $dark_blue;
+  color: white;
+  width: 50px;
+  height: 50px;
+  float: left;
+  border: solid white 1px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.box5 {
+  background: $turquoise;
+  color: white;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-left: 5px;
+  text-align: center;
+  /*border: solid white 1px;
+  border-left-style: none;*/
+}
+
+.text-container {
+  background: rgba(255, 255, 255, 0.2);
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 50%;
 }
